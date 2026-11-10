@@ -1,7 +1,98 @@
+/* Main Theme */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Navigation Bar */
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover, nav a.active {
+    text-decoration: underline;
+}
+
+/* Section Headings */
+h2, h3 {
+    color: white;
+    text-align: center;
+}
+
+/* Table Styling from Lab 11 */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
 th {
-    width: 500px; height: 50px;
+    width: 300px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
 }
 
 td {
-    width: 500px; height: 25px;
+    width: 300px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+}
+
+/* Gallery Images */
+.gallery {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+/* Order Buttons */
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 6px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cccccc;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid white;
+    margin-top: 40px;
+    color: white;
 }
