@@ -1,63 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <title>Cafe Menu</title>
-
+    <meta charset="UTF-8">
+    <title>Quetta Cafe - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<link rel="script" href="script.js">
-<link rel="stylesheet" href="style.css">
+    <!-- Navigation Header -->
+    <header>
+        <h1>Welcome To Quetta Cafe / Dhaba</h1>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
 
-<body style = "background-color: black;">
-    <h1 style="color: rgb(25, 0, 255) ; text-align: center;">Welcome To Quetta Cafe / Dhaba</h1>
+    <!-- Main Content -->
+    <main style="text-align: center;">
+        <h2>Authentic Taste &amp; Traditional Ambience</h2>
+        <p>Experience the finest traditional tea, parathas, and breakfast in town.</p>
+        
+        <!-- Images Section -->
+        <div class="gallery">
+            <img src="images/imag1.jpg" alt="Quetta Cafe Item 1">
+            <img src="images/imag2.webp" alt="Quetta Cafe Item 2">
+            <img src="images/images.jfif" alt="Quetta Cafe Item 3">
+        </div>
+    </main>
 
-    <h3 style="color: white;">Break Fast <h3>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Quetta Cafe | Developed by Awais (26i-3271)</p>
+    </footer>
 
-<img src="images/imag1.jpg"  style="float:right;width: 150px ; height:150px;">
-<img src="images/imag2.webp"  style="float:right;width:150px;height:150px;">
-<img src="images/images.jfif"  style="float:right;width:150px;height:150px;">
-
-    <table border="1">
-  <tr>
-    <th style="color: white;  text-align: center;">Item</th>
-    <th style="color: white;  text-align: center;">Price</th>
-    
-  </tr>
-
-   <tr>
-    <td  style="color: white;  text-align: center; ">Paratha</td>
-    <td  style="color: white;   text-align: center; ">70</td>
-    
-  </tr>
-
-
-  
-   <tr>
-    <td  style="color: white;    text-align: center;">Chai</td>
-    <td  style="color: white;   text-align: center;">70</td>
-    
-  </tr>
-  
-   <tr>
-    <td  style="color: white; text-align: center;">Anda</td>
-    <td  style="color: white;  text-align: center; ">50</td>
-    
-  </tr>
-
-    </table>
-
-<center>
-  <button type="button">Order
-  </button>
-</center>
-<script>
-    function order()
-{
-    console.log("ORDER buttom click")
-    window.alert("Order Confirm")
-}
-</script>
-  
+    <script src="script.js"></script>
 </body>
 </html>
